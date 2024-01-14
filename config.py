@@ -23,7 +23,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", "2107529793"))
+OWNER_ID = int(getenv("OWNER_ID", ""))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -31,7 +31,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/stkeditz/AAROHIxMUSICv2",
+    "https://github.com/dilop121/Test5",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
